@@ -77,11 +77,11 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     //backgroundColor: '#E6AF2E', //yellow
     //backgroundColor: '#F88141',  //orange
-   // backgroundColor: '#558C8C', //dark cyan
+    backgroundColor: '#558C8C', //dark cyan
     //backgroundColor: '#EEF5DB', //beige
-    backgroundColor: '#34403A', //black olive //top pick for button pair with cambridge blue
+   // backgroundColor: '#34403A', //black olive //top pick for button pair with cambridge blue
    // backgroundColor: '#7C9885', //cambridge blue
-      backgroundColor: '#8E8E93', //ios dark mode background system gray 
+      //backgroundColor: '#8E8E93', //ios dark mode background system gray 
     width: 300
   }
 });
