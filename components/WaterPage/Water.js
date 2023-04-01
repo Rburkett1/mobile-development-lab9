@@ -79,7 +79,7 @@ export default function Water(props) {
       <Button 
       title="reset" 
       onPress={resetAmt}
-      buttonStyle = {styles.Button}      
+      buttonStyle = {styles.ButtonReset}      
       />     
       </View>
       <Text style = {{fontSize: 24, color: 'white'}}>Qick Add</Text>
@@ -196,6 +196,17 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
     marginVertical: 40,
     backgroundColor: '#FF453A', // ios system red
+  },
+  ButtonReset:{
+    marginVertical: 15,
+    paddingVertical: 25,
+    borderRadius: 40,
+    width: 80,
+    height: 80,
+   // backgroundColor: '#F88141',
+    marginHorizontal: 20,
+    marginVertical: 40,
+    backgroundColor: '#FF9F0A', // ios system orange
   },
   Button2:{
     fontSize: 12,
