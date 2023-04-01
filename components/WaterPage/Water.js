@@ -69,12 +69,12 @@ export default function Water(props) {
       <Button 
       title="Add" 
       onPress={handleAddWater} 
-      buttonStyle = {styles.Button} 
+      buttonStyle = {styles.ButtonAdd} 
       />
       <Button 
       title="Sub" 
       onPress={handleSubWater}
-      buttonStyle = {styles.Button}      
+      buttonStyle = {styles.ButtonSub}      
       />  
       <Button 
       title="reset" 
@@ -174,6 +174,28 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
     marginVertical: 40,
     backgroundColor: '#8E8E93', //ios dark mode background system gray 
+  },
+  ButtonAdd:{
+    marginVertical: 15,
+    paddingVertical: 25,
+    borderRadius: 40,
+    width: 80,
+    height: 80,
+   // backgroundColor: '#F88141',
+    marginHorizontal: 20,
+    marginVertical: 40,
+    backgroundColor: '#32D74B', // ios system green
+  },
+  ButtonSub:{
+    marginVertical: 15,
+    paddingVertical: 25,
+    borderRadius: 40,
+    width: 80,
+    height: 80,
+   // backgroundColor: '#F88141',
+    marginHorizontal: 20,
+    marginVertical: 40,
+    backgroundColor: '#FF453A', // ios system red
   },
   Button2:{
     fontSize: 12,
